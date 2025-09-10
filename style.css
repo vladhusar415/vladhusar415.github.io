@@ -17,15 +17,24 @@ body {
   padding: 20px 60px;
 }
 
+.logo-travel {
+  font-size: 50px
+}
+
+.logo-img {
+  width: 60px;  /* або будь-яке інше значення */
+  height: auto;
+}
 /* Logo зліва */
 .logo {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 12px;
+  font-size: 20px;
   font-weight: 600;
   justify-self: start;
 }
+
 
 .logo img {
   width: 25px;
@@ -71,7 +80,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 80px 60px;
+  padding: 0px 60px;
 }
 
 .hero-text {
